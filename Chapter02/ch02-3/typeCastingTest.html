@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // inch를 cm으로 변경하지 (누적 예제)
+        // 사용자에게 데이터를 입력 받아 가공한 뒤 결과를 보여주는 것은 프로그램의 기본이다.
+        // 지금까지 배운 내용을 활용해 첫 프로그램을 작성해보자.
+        // 다음은 inch 단위의 숫자를 입력받아 cm으로 변환하여 출력하는 프로그램이다.
+        // 지금까지 배운 내용을 이해했다면 쉽게 작성할 수 있다.
+
+        // 숫자를 입력 받습니다. const는 상수
+        const rawInput = prompt('inch 단위의 숫자를 입력해주세요.')
+
+        // 입력받은 데이터를 숫자형으로 변경하고 cm 단위로 변경한다.
+        const inch = Number(rawInput)
+
+        // inch단위를 cm으로 변환할 때 2.54를 곱하면 된다.
+        const cm = inch * 2.54 
+
+        // 출력한다.
+        alert(`${inch}inch는 ${cm}cm 입니다.`)
+
+        // 마치며 정리
+        //  사용자로부터 글자를 입력 받을 때는 prompt()함수를 사용.
+        // 어떤 자료형의 값을 다른 자료형으로 변경하는 것을 자료형 변환이라고함.
+        // 숫자 자료형으로 변환할 때 Number()함수를 사용
+        // 문자열 자료형으로 변환할 때 String()함수를 사용
+        // 불 자료형으로 변환할 때 Boolean()함수를 사용한다.
+    </script>
+</body>
+</html>

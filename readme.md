@@ -6,9 +6,9 @@
 <html>
 <head>
     <title></title>
-    <!-- 이 script태그 안에서 공부. -->
+    
     <script>
-        
+        <!-- 이 script태그 안에서 공부. -->
     </script>
 </head>
 <body>
